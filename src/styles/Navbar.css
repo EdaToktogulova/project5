@@ -29,7 +29,10 @@
 .navbar a {
    color: white;
    text-decoration: none;
-   margin: 20px;
+   padding: 1rem;
+   font-family: 'Source Serif 4', sans-serif;
+   text-transform: uppercase;
+   font-size: 1.2rem;
 }
 
 .navbar .rightSide button {
