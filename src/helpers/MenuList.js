@@ -1,10 +1,16 @@
+import Menu from "../assets/menu.jpeg";
 import Menu1 from "../assets/menu1.jpeg";
+import Menu2 from "../assets/menu2.jpeg";
+import Menu3 from "../assets/menu3.jpeg";
+import Menu4 from "../assets/menu4.jpeg";
+import Menu5 from "../assets/menu5.jpeg";
+
 
 
 export const MenuList = [
    {
       name: "lorem",
-      image: Menu1,
+      image: Menu,
       price: 12.99,
    },
    {
@@ -14,22 +20,22 @@ export const MenuList = [
    },
    {
       name: "lorem",
-      image: Menu1,
+      image: Menu2,
       price: 12.99,
    },
    {
       name: "lorem",
-      image: Menu1,
+      image: Menu3,
       price: 12.99,
    },
    {
       name: "lorem",
-      image: Menu1,
+      image: Menu4,
       price: 12.99,
    },
    {
       name: "lorem",
-      image: Menu1,
+      image: Menu5,
       price: 12.99,
    },
 ];
