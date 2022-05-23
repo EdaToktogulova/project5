@@ -34,7 +34,7 @@ export const MenuList = [
       price: 12.99,
    },
    {
-      name: "lorem",
+      name: "Cookies cream",
       image: Menu5,
       price: 12.99,
    },
