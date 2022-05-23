@@ -9,27 +9,27 @@ import Menu5 from "../assets/menu5.jpeg";
 
 export const MenuList = [
    {
-      name: "lorem",
+      name: "Ice-cream cake",
       image: Menu,
       price: 12.99,
    },
    {
-      name: "lorem",
+      name: "A sundae",
       image: Menu1,
       price: 12.99,
    },
    {
-      name: "lorem",
+      name: "Whipped cream",
       image: Menu2,
       price: 12.99,
    },
    {
-      name: "lorem",
+      name: "Ninety-nine",
       image: Menu3,
       price: 12.99,
    },
    {
-      name: "lorem",
+      name: "Frozen-yogurt",
       image: Menu4,
       price: 12.99,
    },
