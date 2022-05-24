@@ -11,7 +11,14 @@ function About() {
          <div className="aboutBottom">
             <h1>ABOUT US</h1>
             <p>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam id atque expedita aspernatur cupiditate vero, molestiae rem quaerat adipisci qui, quidem accusantium cum. Ullam officiis eaque cupiditate sunt rem! Voluptas pariatur perspiciatis doloremque libero praesentium quo, non reiciendis tempora exercitationem molestiae dolorum repellat voluptatibus ad impedit ex sed, sint nihil illum cumque aperiam harum modi, facilis vel vero! Perspiciatis dolores temporibus, ad architecto nulla totam quae! Veniam obcaecati quis nemo culpa repudiandae quisquam quo amet molestias fugiat neque atque repellat eos omnis, iste iusto sit, deleniti doloribus laudantium. Ullam at animi incidunt quaerat non quidem sapiente quos perspiciatis tenetur reprehenderit.</p>
+
+               ‘Lux Ice-Cream’ is another American dessert parlor, concentrated on serving surface-driven little group frozen yogurts with a recharged consideration regarding flavor and sense of taste. Proprietor and originator build up every formula explicitly for every individual flavor.
+
+               The uprightness of his fixings is never traded off with added substances or handled balancing out. “Each frozen yogurt is made considering the flavor profile first.” With this hands-on methodology, the owner hopes to change the manner in which individuals eat and consider this nostalgic treat, by giving dessert darlings a completely unique and contemporary frozen yogurt encounter.
+
+               The owner is an independent restaurateur, with broad cake involvement in some of New York’s best foundations. In 2022, he opened ‘Lux Ice-Cream’.
+
+               “‘Lux Ice-Cream’ is my opportunity to express my affection for the quintessential American liberality. I have been longing for these flavors, this style, and this place for a considerable length of time.”</p>
          </div>
       </div>
    );
