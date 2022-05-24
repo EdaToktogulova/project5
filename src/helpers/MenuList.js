@@ -58,13 +58,13 @@ export const MenuList = [
       price: 40,
    },
    {
-      name: "Cookies cream",
-      image: Menu5,
+      name: "Avocado Ice-Cream",
+      image: Menu9,
       price: 40,
    },
    {
-      name: "Cookies cream",
-      image: Menu5,
+      name: "Chocolate Sandwiches",
+      image: Menu10,
       price: 40,
    },
    {
