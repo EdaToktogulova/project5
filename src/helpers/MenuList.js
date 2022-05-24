@@ -6,36 +6,80 @@ import Menu4 from "../assets/menu4.jpeg";
 import Menu5 from "../assets/menu5.jpeg";
 
 
-
 export const MenuList = [
    {
       name: "Ice-cream cake",
       image: Menu,
-      price: 12.99,
+      price: 25,
    },
    {
-      name: "A sundae",
+      name: " Chocolate lux",
       image: Menu1,
-      price: 12.99,
+      price: 35,
    },
    {
       name: "Whipped cream",
       image: Menu2,
-      price: 12.99,
+      price: 30,
    },
    {
       name: "Ninety-nine",
       image: Menu3,
-      price: 12.99,
+      price: 50,
    },
    {
       name: "Frozen-yogurt",
       image: Menu4,
-      price: 12.99,
+      price: 36,
    },
    {
       name: "Cookies cream",
       image: Menu5,
-      price: 12.99,
+      price: 40,
+   },
+   {
+      name: "Cookies cream",
+      image: Menu5,
+      price: 40,
+   },
+   {
+      name: "Cookies cream",
+      image: Menu5,
+      price: 40,
+   },
+   {
+      name: "Cookies cream",
+      image: Menu5,
+      price: 40,
+   },
+   {
+      name: "Cookies cream",
+      image: Menu5,
+      price: 40,
+   },
+   {
+      name: "Cookies cream",
+      image: Menu5,
+      price: 40,
+   },
+   {
+      name: "Cookies cream",
+      image: Menu5,
+      price: 40,
+   },
+   {
+      name: "Cookies cream",
+      image: Menu5,
+      price: 40,
+   },
+   {
+      name: "Cookies cream",
+      image: Menu5,
+      price: 40,
+   },
+   {
+      name: "Cookies cream",
+      image: Menu5,
+      price: 40,
    },
 ];
