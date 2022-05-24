@@ -47,6 +47,16 @@
 .menuItem h1,
 .menuItem p {
    margin-left: 20px;
+   margin-right: 20px;
+}
+.menuItem h1 {
+   font-size: 2rem;
+   text-decoration: none;
+   color: #121619;
+}
+.menuItem p {
+   font-size: 1.5rem;
+   color: green;
 }
 
 @media only screen and (max-width: 1300px) {
