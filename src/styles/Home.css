@@ -19,7 +19,7 @@
 .headerContainer h1 {
    justify-content: center;
    align-items: center;
-   font-size: 90px;
+   font-size: 6rem;
    height: 60px;
    font-weight: 50;
    color: black;
@@ -27,7 +27,7 @@
 
 .headerContainer p {
    padding: 0;
-   font-size: 40px;
+   font-size: 1.8rem;
    font-weight: lighter;
    color: black;
 }
