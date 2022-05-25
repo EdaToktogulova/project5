@@ -29,7 +29,7 @@ export const MenuList = [
    {
       name: "Whipped cream",
       image: Menu2,
-      price: 50,
+      price: 69,
    },
    {
       name: "Ninety-nine",
