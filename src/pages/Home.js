@@ -23,10 +23,6 @@ const Header = () => {
                <button className="btn">Take-out</button>
             </div>
          </div>
-         
-      {/* <Food bgImg1={Craft1} bgImg2={Craft2} />,
-      <Food bgImg={Violet1} />,
-      <Food bgImg={Violet2} /> */}
       </div>
    );
 }
