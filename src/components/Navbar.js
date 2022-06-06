@@ -1,40 +1,41 @@
-import React, { useState } from 'react';
-import Logo from '../assets/logo.jpeg';
+import React, { useState } from "react";
+import { FaIceCream, FaBars, FaTimes } from "react-icons/fa";
+
 import { Link } from 'react-router-dom';
-import ReorderIcon from '@mui/icons-material/Reorder';
-import '../styles/Navbar.css';
+import "../styles/Navbar.css"
 
+const Navbar = () => {
+   const [nav, setNav] = useState(false)
+   const [color, setColor] = useState(false)
+   const handleNav = () => setNav(!nav)
 
-function Navbar() {
-
-   const [openLinks, setOpenLinks] = useState(false)
-
-   const toggleNavbar = () => {
-      setOpenLinks(!openLinks);
+   const changeColor = () => {
+      if (window.scrollY >= 100) {
+         setColor(true)
+      } else {
+         setColor(false)
+      }
    }
 
+   window.addEventListener('scroll', changeColor)
+
+
    return (
-      <div className='navbar'>
-         <div className='leftSide' id={openLinks ? "open" : "close"}>
-            <img src={Logo} />
-            <div className='hiddenLinks'>
+      <div className={color ? 'navbar navbar-bg' : 'navbar'}>
+         <div className="container">
+            <div><FaIceCream size={40} style={{ marginleft: '4px' }} /></div>
+            <div className={nav ? 'nav-menu active' : 'nav-menu'}>
             <Link to="/">Home</Link>
             <Link to="/menu">Menu</Link>
             <Link to="/about">About</Link>
             <Link to="/contact">Contact</Link>
             </div>
-         </div>
-         <div className='rightSide'>
-            <Link to="/">Home</Link>
-            <Link to="/menu">Menu</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
-            <button onClick={toggleNavbar}>
-               <ReorderIcon />
-            </button>
+            <div className="IceCream" onClick={handleNav}>
+               {nav ? (<FaTimes size={20} style={{ color: '#ffffff' }} />) : (<FaBars size={20} />)}
+            </div>
          </div>
       </div>
-   )
+   );
 }
 
 export default Navbar;

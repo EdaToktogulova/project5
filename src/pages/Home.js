@@ -1,21 +1,34 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import BannerImage from '../assets/header.jpeg';
 import '../styles/Home.css';
 
-function Home() {
+import Food from '../components/food/Food.jsx';
+
+// Import images
+import Craft1 from "../assets/craft1.jpeg"
+import Craft2 from "../assets/craft2.jpeg"
+import Violet1 from "../assets/violet1.jpeg"
+import Violet2 from "../assets/violet2.jpeg"
+
+const Header = () => {
    return (
-      <div className="home"  style={{ backgroundImage:  `url(${BannerImage   })`}}>
-         <div className="headerContainer">
-            <h1>ICE-CREAM</h1>
-            <h1>SHOP</h1>
-            <p>ice-cream to fit any taste</p>
-            <Link to="/menu">
-               <button>ORDER NOW</button>
-            </Link>
+      <div className="header">
+         <div className="container">
+            <div className="content">
+               <div className="text">
+                  <p>welcome to our</p>
+               </div>
+               <h1>Ice-Cream</h1>
+               <h1>Shop</h1>
+               <button className="btn">Delivery</button>
+               <button className="btn">Take-out</button>
+            </div>
          </div>
+         
+      {/* <Food bgImg1={Craft1} bgImg2={Craft2} />,
+      <Food bgImg={Violet1} />,
+      <Food bgImg={Violet2} /> */}
       </div>
-   )
+   );
 }
 
-export default Home;
+export default Header;
