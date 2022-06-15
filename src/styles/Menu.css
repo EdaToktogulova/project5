@@ -18,6 +18,11 @@
    place-items: center;
 }
 
+.one {
+   width: 20px;
+   height: 80px;
+}
+
 /* Menu Item Styling*/
 
 .menuItem {
