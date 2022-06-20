@@ -1,94 +1,94 @@
-import Menu from "../assets/menu.jpeg";
-import Menu1 from "../assets/menu1.jpeg";
-import Menu2 from "../assets/menu2.jpeg";
-import Menu3 from "../assets/menu3.jpeg";
-import Menu4 from "../assets/menu4.jpeg";
-import Menu5 from "../assets/menu5.jpeg";
-import Menu6 from "../assets/menu6.jpeg";
-import Menu7 from "../assets/menu7.jpeg";
-import Menu8 from "../assets/menu8.jpeg";
-import Menu9 from "../assets/menu9.jpeg";
-import Menu10 from "../assets/menu10.jpeg";
-import Menu11 from "../assets/menu11.jpeg";
-import Menu12 from "../assets/menu12.jpeg";
-import Menu13 from "../assets/menu13.jpeg";
-import Menu14 from "../assets/menu14.jpeg";
+import menu from "../assets/menu.jpeg";
+import menu1 from "../assets/menu1.jpeg";
+import menu2 from "../assets/menu2.jpeg";
+import menu3 from "../assets/menu3.jpeg";
+import menu4 from "../assets/menu4.jpeg";
+import menu5 from "../assets/menu5.jpeg";
+import menu6 from "../assets/menu6.jpeg";
+import menu7 from "../assets/menu7.jpeg";
+import menu8 from "../assets/menu8.jpeg";
+import menu9 from "../assets/menu9.jpeg";
+import menu10 from "../assets/menu10.jpeg";
+import menu11 from "../assets/menu11.jpeg";
+import menu12 from "../assets/menu12.jpeg";
+import menu13 from "../assets/menu13.jpeg";
+import menu14 from "../assets/menu14.jpeg";
 
 
 export const MenuList = [
    {
       name: "Ice-cream cake",
-      image: Menu,
+      image: menu,
       price: 68,
    },
    {
       name: " Chocolate lux",
-      image: Menu1,
+      image: menu1,
       price: 70,
    },
    {
       name: "Whipped cream",
-      image: Menu2,
+      image: menu2,
       price: 69,
    },
    {
       name: "Ninety-nine",
-      image: Menu3,
+      image: menu3,
       price: 83,
    },
    {
       name: "Frozen-yogurt",
-      image: Menu4,
+      image: menu4,
       price: 79,
    },
    {
       name: "Cookies cream",
-      image: Menu5,
+      image: menu5,
       price: 65,
    },
    {
       name: "Sunday Ice-Cream",
-      image: Menu6,
+      image: menu6,
       price: 40,
    },
    {
       name: "Banana Split",
-      image: Menu7,
+      image: menu7,
       price: 59,
    },
    {
       name: "Classic Oreo",
-      image: Menu8,
+      image: menu8,
       price: 61,
    },
    {
       name: "Avocado Ice-Cream",
-      image: Menu9,
+      image: menu9,
       price: 76,
    },
    {
       name: "Chocolate Sandwiches",
-      image: Menu10,
+      image: menu10,
       price: 92,
    },
    {
       name: "Rolled Ice-Cream",
-      image: Menu11,
+      image: menu11,
       price: 99,
    },
    {
       name: "Azuki red bean ice-cream",
-      image: Menu12,
+      image: menu12,
       price: 100,
    },
    {
       name: "Easy Chocolate Ice-Cream",
-      image: Menu13,
+      image: menu13,
       price: 74,
    },
    {
       name: "Midnight Chocolate",
-      image: Menu14,
+      image: menu14,
       price: 89,
    },
 ];
