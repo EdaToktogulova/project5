@@ -2,10 +2,11 @@ import React from "react";
 import Food from "../components/Food/Food";
 import '../styles/Home.css';
 
-import Craft1 from "../assets/craft1.jpeg";
-import Craft2 from "../assets/craft2.jpeg";
-import Violet1 from "../assets/violet1.jpeg";
-import Violet2 from "../assets/violet2.jpeg";
+// Import images
+import craft1 from "../assets/craft1.jpeg";
+import craft2 from "../assets/craft2.jpeg";
+import violet1 from "../assets/violet1.jpeg";
+import violet2 from "../assets/violet2.jpeg";
 
 
 const Header = () => {
@@ -24,9 +25,9 @@ const Header = () => {
                </div>
             </div>
          </div>
-         <Food bgImg1={Craft1} bgImg2={Craft2} />
-         <Food bgImg={Violet1} />
-         <Food bgImg={Violet2} />
+         <Food bgImg1={craft1} bgImg2={craft2} />
+         <Food bgImg={violet1} />
+         <Food bgImg={violet2} />
       </div>
    );
 }
