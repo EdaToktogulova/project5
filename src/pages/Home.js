@@ -26,8 +26,8 @@ const Header = () => {
             </div>
          </div>
          <Food bgImg1={craft1} bgImg2={craft2} />
-         <Food bgImg={violet1} />
-         <Food bgImg={violet2} />
+         {/* <Food bgImg={violet1} />
+         <Food bgImg={violet2} /> */}
       </div>
    );
 }
