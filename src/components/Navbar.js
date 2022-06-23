@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaIceCream, FaBars, FaTimes } from "react-icons/fa";
-import { Link } from 'react-router-dom';
-import "../styles/Navbar.css"
+import { Link, NavLink } from 'react-router-dom';
+import "../styles/Navbar.css";
 
 
 const Navbar = () => {
@@ -25,10 +25,10 @@ const Navbar = () => {
          <div className="container">
             <div><FaIceCream size={40} style={{ marginleft: '4px' }} /></div>
             <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
-            <Link to="/">Home</Link>
-            <Link to="/menu">Menu</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
+               <Link to="/">Home</Link>
+               <Link to="/menu">Menu</Link>
+               <Link to="/about">About</Link>
+               <Link to="/contact">Contact</Link>
             </ul>
             <div className="IceCream" onClick={handleNav}>
                {nav ? (<FaTimes size={20} style={{ color: '#ffffff' }} />) : (<FaBars size={20} />)}
