@@ -5,8 +5,6 @@ import '../styles/Home.css';
 // Import images
 import craft1 from "../assets/craft1.jpeg";
 import craft2 from "../assets/craft2.jpeg";
-import violet1 from "../assets/violet1.jpeg";
-import violet2 from "../assets/violet2.jpeg";
 
 
 const Header = () => {
