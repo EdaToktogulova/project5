@@ -7,7 +7,6 @@ import craft2 from "../assets/craft2.jpeg";
 import Food from "../components/food/Food";
 
 
-
 const Header = () => {
    return (
       <div>
