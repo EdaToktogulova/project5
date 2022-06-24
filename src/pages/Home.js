@@ -4,7 +4,7 @@ import '../styles/Home.css';
 // Import images
 import craft1 from "../assets/craft1.jpeg";
 import craft2 from "../assets/craft2.jpeg";
-import Food from "../components/food/Food";
+import Food from "../components/Food/Food";
 
 
 const Header = () => {
